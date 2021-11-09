@@ -46,9 +46,12 @@ These sensors are automatically created and associated to the router device:
 - Upload sensor (unit_of_measurement: Gigabyte - *Daily accumulation*)
 - Upload Speed sensor (unit_of_measurement: Mbit/s)
 - Load average sensors (1min, 5min, 15min)
+- Temperature sensors (2.4GHz, 5GHz, CPU - unit_of_measurement: Celsius)
 
 Only `Connected devices sensor` is created in status **enabled**, all other sensors are created in status **disabled**.
 To use them, simply **enable** on the devices page.
+
+Some or all `Temperature sensors` may not be available for some routers.
 
 ## Integration Options
 
